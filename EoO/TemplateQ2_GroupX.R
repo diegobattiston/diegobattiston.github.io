@@ -1,12 +1,12 @@
-/###############################################################################
+###############################################################################
 #                      ECONOMICS OF ORGANISATIONS
-#                        Group Coursework 2023
+#                        Group Coursework 2024
 #                        
-#                 Template for answering question 1
+#                 Template for answering question 2
 #
 # GROUP NUMBER:
 #
-################################################################################/
+################################################################################
 
 
 # Note: You need to know how to run regressions in R, how to include fixed effects 
@@ -20,7 +20,7 @@ library(data.table)
 
 # Open Dataset (notice you can open a Stata dataset with R directly as follows)
 pathdata <- "C:/replace_here_your_directory"
-dataset <- read.dta(paste(pathdata,"/JST.dta",sep=""))
+dataset <- read.dta(paste(pathdata,"/MTH.dta",sep=""))
 
 
 
@@ -102,6 +102,19 @@ write here your commands
 
 
 # PART F -----------------------------------------------------------------------
+
+
+write here your commands
+
+
+# Write here the answer
+#
+#
+#
+#
+
+
+# PART G -----------------------------------------------------------------------
 
 
 write here your commands
