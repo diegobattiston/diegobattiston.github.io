@@ -63,7 +63,7 @@ reg Y experience group_exp
 
 drop Y
 
-* Create group average outcome using the equation on slide 12 
+* Create group average outcome using the equation on slide 12 (reduced form of Y_group)
 // Note: We add a small error to simulate that the avg error will not be exactly zero
 gen sampl_err = rnormal(0,0.001)
 gen Y_group = alpha/(1-delta) + (gamma+beta)/(1-delta)*group_exp + sampl_err
@@ -119,7 +119,8 @@ drop Y
 egen manager_quality = mean(rnormal(0,5)), by(group)
 
 * ---> Manager increases punctuality
-replace punctuality = punctuality + 0.5*manager_quality
+
+gen punctuality = uniform() + 0.5*manager_quality
 
 * Create the model (it is manager quality what really matters)
 gen Y= 2*experience + manager_quality + error
@@ -130,7 +131,6 @@ gen peers_punct = (10*group_punct-punctuality)/9
 
 * Regression (use punctuality, assume manager quality is not observed)
 regress Y experience peers_punct
-
 
 
 
