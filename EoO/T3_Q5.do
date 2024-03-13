@@ -119,7 +119,6 @@ drop Y
 egen manager_quality = mean(rnormal(0,5)), by(group)
 
 * ---> Manager increases punctuality
-
 gen punctuality = uniform() + 0.5*manager_quality
 
 * Create the model (it is manager quality what really matters)
