@@ -5,7 +5,7 @@
 * The only individual characteristic is the experience
 * Then we will create different models for the outcome Y
 * The idea is that we generate models using different parameters and then we will
-*  see if we can recover those true parameters with regressions 
+*  see if we can recover those true parameters with regressions  
 ***********************************************************************************
 
 
