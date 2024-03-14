@@ -119,7 +119,8 @@ drop Y
 egen manager_quality = mean(rnormal(0,5)), by(group)
 
 * ---> Manager increases punctuality
-gen punctuality = uniform() + 0.5*manager_quality
+gen punctuality = uniform()
+replace punctuality = punctuality + 0.5*manager_quality
 
 * Create the model (it is manager quality what really matters)
 gen Y= 2*experience + manager_quality + error
@@ -130,36 +131,3 @@ gen peers_punct = (10*group_punct-punctuality)/9
 
 * Regression (use punctuality, assume manager quality is not observed)
 regress Y experience peers_punct
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-********
-gen  peers_exp = (10*group_exp-experience)/9 
-replace group_exp = peers_exp 
