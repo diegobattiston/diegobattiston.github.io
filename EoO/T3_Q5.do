@@ -2,7 +2,7 @@
 * TUTORIAL 3 - QUESTION 5
 
 * We are going to generate data on individuals who belong to different groups. 
-* The only individual characteristic is the experience
+* The only individual characteristic is the experience 
 * Then we will create different models for the outcome Y
 * The idea is that we generate models using different parameters and then we will
 *  see if we can recover those true parameters with regressions  
