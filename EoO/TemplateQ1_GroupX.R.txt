@@ -1,8 +1,8 @@
 ###############################################################################
 #                      ECONOMICS OF ORGANISATIONS
-#                        Group Coursework 2024
+#                        Group Coursework 2025
 #                        
-#                 Template for answering question 2
+#                 Template for answering question 1
 #
 # GROUP NUMBER:
 #
@@ -20,7 +20,7 @@ library(data.table)
 
 # Open Dataset (notice you can open a Stata dataset with R directly as follows)
 pathdata <- "C:/replace_here_your_directory"
-dataset <- read.dta(paste(pathdata,"/MTH.dta",sep=""))
+dataset <- read.dta(paste(pathdata,"/CEOtransitions.dta",sep=""))
 
 
 
@@ -29,99 +29,24 @@ dataset <- read.dta(paste(pathdata,"/MTH.dta",sep=""))
 write here your commands
 
 
-# Write here the answer
-#
-#
-#
-#
-
-
-
-
-
 # PART B -----------------------------------------------------------------------
 
-write here your commands
+ # i #
 
+write here your commands to estimate the DiD (subpart i)
 
-# Write here the answer
-#
-#
-#
-#
+ # ii #
 
+write here your commands for the dynamic specification (subpart ii)
 
 
 
 # PART C -----------------------------------------------------------------------
 
-write here your commands
+# ii #
+write here your commands for the IV
+
+# iii #
+write here your commands for checking correlation of IV and vars
 
 
-# Write here the answer
-#
-#
-#
-#
-
-
-
-# PART D -----------------------------------------------------------------------
-
-write here your commands
-
-
-# Write here the answer
-#
-#
-#
-#
-
-
-# PART E -----------------------------------------------------------------------
-
-
-### i: OLS using 2015 only
-
-write here your commands
-
-
-### ii: Diff-in-Diff
-
-
-write here your commands
-
-
-
-# Write here the answer
-#
-#
-#
-#
-
-
-
-# PART F -----------------------------------------------------------------------
-
-
-write here your commands
-
-
-# Write here the answer
-#
-#
-#
-#
-
-
-# PART G -----------------------------------------------------------------------
-
-
-write here your commands
-
-
-# Write here the answer
-#
-#
-#
-#
