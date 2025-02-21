@@ -9,10 +9,11 @@
 ################################################################################
 
 
-# Note: You need to know how to run regressions in R, how to include fixed effects 
-#       and how to create simple variables. If you are unsure, you need to find
-#       how to do it yourself or use Stata where some hints are given. This file
-#       only gives you the command to open the dataset.
+# Note: You need to know how to run regressions in R, how to include fixed effects, 
+#       how to create simple variables and how to estimate IV regressions. 
+#       If you are unsure, you need to find how to do it yourself or use Stata 
+#       where some hints are given. This file only gives you the command to open 
+#       the dataset.
 
 
 # PACKAGES
@@ -35,9 +36,9 @@ write here your commands
 
 write here your commands to estimate the DiD (subpart i)
 
- # ii #
+ # iii #
 
-write here your commands for the dynamic specification (subpart ii)
+write here your commands for the dynamic specification (subpart iii)
 
 
 
