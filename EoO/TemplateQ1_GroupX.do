@@ -24,7 +24,9 @@ NOTES:
     
 - There are some useful commands you need to remember:
 
-   - For regressions, use the command reg (e.g: reg Y X1 X2 X3, etc.)
+   - For regressions, use the command reg (e.g: reg Y X1 X2 X3, etc.). It is 
+     recommended to always use the option "robust" for getting correct standard
+     errors.
    
    - You may need to create dummies for the time periods. If you write:
      tab period, gen(t_) , you will creates dummies t_1, t_2, ..., t_7 for
